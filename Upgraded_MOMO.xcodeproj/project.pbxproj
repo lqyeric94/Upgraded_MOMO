@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1686AED8A7E6A7C84282FC12 /* Pods_Upgraded_MOMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E823D3FFC40DADA95F3106 /* Pods_Upgraded_MOMO.framework */; };
+		A2943EBC1D48DE3000C0C325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2943EBB1D48DE3000C0C325 /* AppDelegate.swift */; };
+		A2943EC11D48DE3000C0C325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2943EBF1D48DE3000C0C325 /* Main.storyboard */; };
+		A2943EC31D48DE3000C0C325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2943EC21D48DE3000C0C325 /* Assets.xcassets */; };
+		A2943EC61D48DE3000C0C325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2943EC41D48DE3000C0C325 /* LaunchScreen.storyboard */; };
+		A2943ED11D48DE3000C0C325 /* Upgraded_MOMOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2943ED01D48DE3000C0C325 /* Upgraded_MOMOTests.swift */; };
+		A2943EDC1D48DE3000C0C325 /* Upgraded_MOMOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2943EDB1D48DE3000C0C325 /* Upgraded_MOMOUITests.swift */; };
+		A2943EEA1D48DF4F00C0C325 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2943EE91D48DF4F00C0C325 /* DiscoverVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2943ECD1D48DE3000C0C325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2943EB01D48DE3000C0C325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2943EB71D48DE3000C0C325;
+			remoteInfo = Upgraded_MOMO;
+		};
+		A2943ED81D48DE3000C0C325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2943EB01D48DE3000C0C325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2943EB71D48DE3000C0C325;
+			remoteInfo = Upgraded_MOMO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EA1D10E2F2F76AA9AC4144 /* Pods-Upgraded_MOMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upgraded_MOMO.release.xcconfig"; path = "Pods/Target Support Files/Pods-Upgraded_MOMO/Pods-Upgraded_MOMO.release.xcconfig"; sourceTree = "<group>"; };
+		8409EB84C5DBC5C87DDE0772 /* Pods-Upgraded_MOMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Upgraded_MOMO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Upgraded_MOMO/Pods-Upgraded_MOMO.debug.xcconfig"; sourceTree = "<group>"; };
+		A2943EB81D48DE3000C0C325 /* Upgraded_MOMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upgraded_MOMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2943EBB1D48DE3000C0C325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2943EC01D48DE3000C0C325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2943EC21D48DE3000C0C325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2943EC51D48DE3000C0C325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2943EC71D48DE3000C0C325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2943ECC1D48DE3000C0C325 /* Upgraded_MOMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Upgraded_MOMOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2943ED01D48DE3000C0C325 /* Upgraded_MOMOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgraded_MOMOTests.swift; sourceTree = "<group>"; };
+		A2943ED21D48DE3000C0C325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2943ED71D48DE3000C0C325 /* Upgraded_MOMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Upgraded_MOMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2943EDB1D48DE3000C0C325 /* Upgraded_MOMOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgraded_MOMOUITests.swift; sourceTree = "<group>"; };
+		A2943EDD1D48DE3000C0C325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2943EE91D48DF4F00C0C325 /* DiscoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
+		F8E823D3FFC40DADA95F3106 /* Pods_Upgraded_MOMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Upgraded_MOMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2943EB51D48DE3000C0C325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1686AED8A7E6A7C84282FC12 /* Pods_Upgraded_MOMO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2943EC91D48DE3000C0C325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2943ED41D48DE3000C0C325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		980D11677F9FAE58F910F0D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8E823D3FFC40DADA95F3106 /* Pods_Upgraded_MOMO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2943EAF1D48DE3000C0C325 = {
+			isa = PBXGroup;
+			children = (
+				A2943EBA1D48DE3000C0C325 /* Upgraded_MOMO */,
+				A2943ECF1D48DE3000C0C325 /* Upgraded_MOMOTests */,
+				A2943EDA1D48DE3000C0C325 /* Upgraded_MOMOUITests */,
+				A2943EB91D48DE3000C0C325 /* Products */,
+				EAC03509375917DFD247D2F6 /* Pods */,
+				980D11677F9FAE58F910F0D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2943EB91D48DE3000C0C325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2943EB81D48DE3000C0C325 /* Upgraded_MOMO.app */,
+				A2943ECC1D48DE3000C0C325 /* Upgraded_MOMOTests.xctest */,
+				A2943ED71D48DE3000C0C325 /* Upgraded_MOMOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2943EBA1D48DE3000C0C325 /* Upgraded_MOMO */ = {
+			isa = PBXGroup;
+			children = (
+				A2943EBB1D48DE3000C0C325 /* AppDelegate.swift */,
+				A2943EBF1D48DE3000C0C325 /* Main.storyboard */,
+				A2943EE91D48DF4F00C0C325 /* DiscoverVC.swift */,
+				A2943EC21D48DE3000C0C325 /* Assets.xcassets */,
+				A2943EC41D48DE3000C0C325 /* LaunchScreen.storyboard */,
+				A2943EC71D48DE3000C0C325 /* Info.plist */,
+			);
+			path = Upgraded_MOMO;
+			sourceTree = "<group>";
+		};
+		A2943ECF1D48DE3000C0C325 /* Upgraded_MOMOTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2943ED01D48DE3000C0C325 /* Upgraded_MOMOTests.swift */,
+				A2943ED21D48DE3000C0C325 /* Info.plist */,
+			);
+			path = Upgraded_MOMOTests;
+			sourceTree = "<group>";
+		};
+		A2943EDA1D48DE3000C0C325 /* Upgraded_MOMOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2943EDB1D48DE3000C0C325 /* Upgraded_MOMOUITests.swift */,
+				A2943EDD1D48DE3000C0C325 /* Info.plist */,
+			);
+			path = Upgraded_MOMOUITests;
+			sourceTree = "<group>";
+		};
+		EAC03509375917DFD247D2F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8409EB84C5DBC5C87DDE0772 /* Pods-Upgraded_MOMO.debug.xcconfig */,
+				04EA1D10E2F2F76AA9AC4144 /* Pods-Upgraded_MOMO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2943EB71D48DE3000C0C325 /* Upgraded_MOMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2943EE01D48DE3000C0C325 /* Build configuration list for PBXNativeTarget "Upgraded_MOMO" */;
+			buildPhases = (
+				18AC844DDF6EF73E8D0052D8 /* [CP] Check Pods Manifest.lock */,
+				A2943EB41D48DE3000C0C325 /* Sources */,
+				A2943EB51D48DE3000C0C325 /* Frameworks */,
+				A2943EB61D48DE3000C0C325 /* Resources */,
+				4DE3F7220CACFCF26414797B /* [CP] Embed Pods Frameworks */,
+				3BD9777FD14C95D12822FFEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Upgraded_MOMO;
+			productName = Upgraded_MOMO;
+			productReference = A2943EB81D48DE3000C0C325 /* Upgraded_MOMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2943ECB1D48DE3000C0C325 /* Upgraded_MOMOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2943EE31D48DE3000C0C325 /* Build configuration list for PBXNativeTarget "Upgraded_MOMOTests" */;
+			buildPhases = (
+				A2943EC81D48DE3000C0C325 /* Sources */,
+				A2943EC91D48DE3000C0C325 /* Frameworks */,
+				A2943ECA1D48DE3000C0C325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2943ECE1D48DE3000C0C325 /* PBXTargetDependency */,
+			);
+			name = Upgraded_MOMOTests;
+			productName = Upgraded_MOMOTests;
+			productReference = A2943ECC1D48DE3000C0C325 /* Upgraded_MOMOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2943ED61D48DE3000C0C325 /* Upgraded_MOMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2943EE61D48DE3000C0C325 /* Build configuration list for PBXNativeTarget "Upgraded_MOMOUITests" */;
+			buildPhases = (
+				A2943ED31D48DE3000C0C325 /* Sources */,
+				A2943ED41D48DE3000C0C325 /* Frameworks */,
+				A2943ED51D48DE3000C0C325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2943ED91D48DE3000C0C325 /* PBXTargetDependency */,
+			);
+			name = Upgraded_MOMOUITests;
+			productName = Upgraded_MOMOUITests;
+			productReference = A2943ED71D48DE3000C0C325 /* Upgraded_MOMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2943EB01D48DE3000C0C325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eric Liu";
+				TargetAttributes = {
+					A2943EB71D48DE3000C0C325 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A2943ECB1D48DE3000C0C325 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A2943EB71D48DE3000C0C325;
+					};
+					A2943ED61D48DE3000C0C325 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A2943EB71D48DE3000C0C325;
+					};
+				};
+			};
+			buildConfigurationList = A2943EB31D48DE3000C0C325 /* Build configuration list for PBXProject "Upgraded_MOMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2943EAF1D48DE3000C0C325;
+			productRefGroup = A2943EB91D48DE3000C0C325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2943EB71D48DE3000C0C325 /* Upgraded_MOMO */,
+				A2943ECB1D48DE3000C0C325 /* Upgraded_MOMOTests */,
+				A2943ED61D48DE3000C0C325 /* Upgraded_MOMOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2943EB61D48DE3000C0C325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2943EC61D48DE3000C0C325 /* LaunchScreen.storyboard in Resources */,
+				A2943EC31D48DE3000C0C325 /* Assets.xcassets in Resources */,
+				A2943EC11D48DE3000C0C325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2943ECA1D48DE3000C0C325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2943ED51D48DE3000C0C325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18AC844DDF6EF73E8D0052D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BD9777FD14C95D12822FFEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Upgraded_MOMO/Pods-Upgraded_MOMO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DE3F7220CACFCF26414797B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Upgraded_MOMO/Pods-Upgraded_MOMO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2943EB41D48DE3000C0C325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2943EBC1D48DE3000C0C325 /* AppDelegate.swift in Sources */,
+				A2943EEA1D48DF4F00C0C325 /* DiscoverVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2943EC81D48DE3000C0C325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2943ED11D48DE3000C0C325 /* Upgraded_MOMOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2943ED31D48DE3000C0C325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2943EDC1D48DE3000C0C325 /* Upgraded_MOMOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2943ECE1D48DE3000C0C325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2943EB71D48DE3000C0C325 /* Upgraded_MOMO */;
+			targetProxy = A2943ECD1D48DE3000C0C325 /* PBXContainerItemProxy */;
+		};
+		A2943ED91D48DE3000C0C325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2943EB71D48DE3000C0C325 /* Upgraded_MOMO */;
+			targetProxy = A2943ED81D48DE3000C0C325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2943EBF1D48DE3000C0C325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2943EC01D48DE3000C0C325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2943EC41D48DE3000C0C325 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2943EC51D48DE3000C0C325 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2943EDE1D48DE3000C0C325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2943EDF1D48DE3000C0C325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2943EE11D48DE3000C0C325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8409EB84C5DBC5C87DDE0772 /* Pods-Upgraded_MOMO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Upgraded_MOMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HKJ.Upgraded-MOMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2943EE21D48DE3000C0C325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04EA1D10E2F2F76AA9AC4144 /* Pods-Upgraded_MOMO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Upgraded_MOMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HKJ.Upgraded-MOMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2943EE41D48DE3000C0C325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Upgraded_MOMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HKJ.Upgraded-MOMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upgraded_MOMO.app/Upgraded_MOMO";
+			};
+			name = Debug;
+		};
+		A2943EE51D48DE3000C0C325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Upgraded_MOMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HKJ.Upgraded-MOMOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Upgraded_MOMO.app/Upgraded_MOMO";
+			};
+			name = Release;
+		};
+		A2943EE71D48DE3000C0C325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Upgraded_MOMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HKJ.Upgraded-MOMOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Upgraded_MOMO;
+			};
+			name = Debug;
+		};
+		A2943EE81D48DE3000C0C325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Upgraded_MOMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HKJ.Upgraded-MOMOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Upgraded_MOMO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2943EB31D48DE3000C0C325 /* Build configuration list for PBXProject "Upgraded_MOMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2943EDE1D48DE3000C0C325 /* Debug */,
+				A2943EDF1D48DE3000C0C325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2943EE01D48DE3000C0C325 /* Build configuration list for PBXNativeTarget "Upgraded_MOMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2943EE11D48DE3000C0C325 /* Debug */,
+				A2943EE21D48DE3000C0C325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2943EE31D48DE3000C0C325 /* Build configuration list for PBXNativeTarget "Upgraded_MOMOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2943EE41D48DE3000C0C325 /* Debug */,
+				A2943EE51D48DE3000C0C325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2943EE61D48DE3000C0C325 /* Build configuration list for PBXNativeTarget "Upgraded_MOMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2943EE71D48DE3000C0C325 /* Debug */,
+				A2943EE81D48DE3000C0C325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2943EB01D48DE3000C0C325 /* Project object */;
+}

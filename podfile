@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Upgraded_MOMO' do
+pod 'LeanCloud', :git => 'git@github.com:leancloud/swift-sdk.git', :tag => '0.0.1.beta'
+end
